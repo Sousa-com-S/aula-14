@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function mensagem (){
+            var tempo = new Date();
+            document.write("bem vindo! são " + tempo.getHours()+":"+tempo.getMinutes()+":"+tempo.getSeconds())
+        }
+    </script>
+    <script>
+        function seila (){
+            var time = prompt("qual seu time do coração?")
+            if (time == "palmeiras"){
+                document.write('<img src="resutado ruim.png" alt="">')
+            } 
+            else {
+                document.write('<img src="resultado bom.png" alt="">')
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <button onclick="seila()">
+    fahhhhh
+    </button>
+    
+</body>
+</html>
